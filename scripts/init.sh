@@ -1,3 +1,4 @@
 #!bin/bash
+cd ../webapp.unittests/
 dotnet restore
-dotnet run
+dotnet test
